@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; 
+}
+
+body {
+    display: flex;
+    flex-direction:column;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.nav 
+{
+  font-family: monospace;
+  justify-content: space-around;
+}
+
+.bg-dark h1 
+{
+    width: 100%;
+    background-color: #504f4f25;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 10px;
+    box-shadow: 0 5px 100px rgba(255, 255, 255, 0.979);
+    font-family:fantasy;
+    border-radius: 8px; 
+}
+
+footer 
+{
+    background-color: #183450;
+    color: white;
+    margin-top: auto; 
+    padding: 15px 0; 
+    text-align: center; 
+}
+
+footer p 
+{
+    margin: 0;
+}
+
+h1, h2, h5 
+{
+    margin-bottom: 1rem;
+}
+
+.carousel-item 
+{
+    margin-bottom: 1px;
+}
+
+.carousel-inner img 
+{
+    height: 1000px;
+    object-fit: cover;
+    width: 100%; 
+}
+
+.row 
+{
+    margin: 0;
+}
+
+.card 
+{
+    border: none;
+    margin-bottom: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    height: 97%;
+}
+
+.card-title {
+    font-size: 1.5em;
+    color: #000000;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(7, 205, 255, 0.938);  
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+
+}
+
+

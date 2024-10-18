@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Moedas</title>
+  <link rel="stylesheet" href="ExPratico.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="titulo-principal">Conversor de Moedas</h1>
+    <div class="form-group">
+      <label for="valor">Valor:</label>
+      <input type="number" id="valor" placeholder="Digite o valor" />
+    </div>
+    <div class="form-group">
+      <label for="moedaOrigem">De:</label>
+      <select id="moedaOrigem"></select>
+    </div>
+    <div class="form-group">
+      <label for="moedaDestino">Para:</label>
+      <select id="moedaDestino"></select>
+    </div>
+    <button id="botaoConverter">Converter</button>
+    <div id="resultado" class="resultado"></div>
+  </div>
+  <script src="ExPratico.js"></script>
+</body>
+
+</html>

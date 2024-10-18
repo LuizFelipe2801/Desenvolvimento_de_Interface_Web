@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorador</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="explorador.css">
+</head>
+
+<body>
+
+  <header class="bg-dark text-white p-3">
+    <div class="container">
+      <h1>Explorador de Séries</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="explorer.html">Explorador</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container mt-5">
+    <h2>Pesquise Séries</h2>
+    <input type="text" class="form-control" placeholder="Digite o nome da série">
+
+    <h3>Filtros</h3>
+    <div class="form-group">
+      <label for="genero">Gênero:</label>
+      <select class="form-control" id="genero">
+        <option>Todos</option>
+        <option>Ação</option>
+        <option>Comédia</option>
+        <option>Drama</option>
+        <option>Terror</option>
+        <option>Suspense</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="ano">Ano:</label>
+      <select class="form-control" id="ano">
+        <option>Todos</option>
+        <option>2023</option>
+        <option>2022</option>
+        <option>2021</option>
+        <option>2020</option>
+        <option>2019</option>
+        <option>2018</option>
+        <option>2017</option>
+        <option>2016</option>
+        <option>2015</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="plataforma">Plataforma:</label>
+      <select class="form-control" id="plataforma">
+        <option>Todos</option>
+        <option>Netflix</option>
+        <option>Amazon Prime</option>
+        <option>Prime Video</option>
+        <option>HBO</option>
+      </select>
+    </div>
+
+    <h2 class="mt-5">Resultados da Pesquisa</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <a href="serie2.html"><img src="image/StrangerThings.jpg" class="card-img-top" alt="Stranger Things">
+          <div class="card-body">
+            <h5 class="card-title">STRANGER THINGS</h5>
+            <p class="card-text">Situada no início dos anos 1980, Stranger Things se passa na cidade rural fictícia de Hawkins, Indiana. Como fachada, o laboratório da região realizava experimentos científicos para o Departamento de Energia Americano, quando na realidade, os pesquisadores ali investiram em experimentos com o paranormal e o sobrenatural, incluindo o uso de cobaias humanas. Não intencionalmente, eles criaram um portal para uma dimensão alternativa conhecida como Mundo Invertido, o que iria impactar a vida dos residentes da pequena cidade. Em 1983, quando Will Byers (Noah Schnapp), um menino de 12 anos, desaparece misteriosamente, o xerife Jim Hopper (David Harbour) inicia uma operação para encontrá-lo. Enquanto isso, Mike (Finn Wolfhard), Dustin (Gaten Matarazzo) e Lucas (Caleb McLaughlin), melhores amigos de Will, decidem procurá-lo por conta própria. Mas as investigações acabam levando o grupo em direção aos experimentos secretos do governo e a Eleven (Millie Bobby Brown), uma peculiar menina perdida na floresta. Assim como as crianças, a mãe Joyce Byers (Winona Ryder) está determinada e fará o impossível para rever o filho. 
+            </p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="image/GameOfThrones.jpg" class="card-img-top" alt="Game of Thrones">
+          <div class="card-body">
+            <h5 class="card-title">GAME OF THRONES</h5>
+            <p class="card-text">Game of Thrones conta a história de um lugar onde uma força destruiu o equilíbrio das estações, há muito tempo. Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, as reivindicações e as forças sobrenaturais correm as portas do Reino dos Sete Reinos. A irmandade da Patrulha da Noite busca proteger o reino de cada criatura que pode vir de lá da Muralha, mas já não tem os recursos necessários para garantir a segurança de todos. Depois de um verão de dez anos, um inverno rigoroso promete chegar com um futuro mais sombrio. Enquanto isso, conspirações e rivalidades correm no jogo político pela disputa do Trono de Ferro, o símbolo do poder absoluto.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="image/Round6.jpg" class="card-img-top" alt="Round 6,">
+          <div class="card-body">
+            <h5 class="card-title">ROUND 6,</h5>
+            <p class="card-text">Round 6, série sul-coreana original da Netflix, acompanha um grupo de pessoas desesperadas por dinheiro que recebem um misterioso convite para participar de jogos competitivos inspirados em brincadeiras infantis. Sem saber qualquer coisa sobre o convite, centenas de pessoas comparecem ao local para participar do evento. Ao final do jogo, o vencedor poderá levar para casa um prêmio milionário e resolver todas as suas dívidas. Porém, o que eles não sabem é que os perdedores não saírão vivos desse jogo. Agora os competidores precisarão lutar para sobreviver a essa macabra disputa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center p-3">
+    <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

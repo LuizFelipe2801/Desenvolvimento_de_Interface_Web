@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Básica</title>
+</head>
+<body>
+  <h1>Calculadora Básica</h1>
+  <script>
+ var operacao = prompt("Escolha uma das operações: + soma, - subtração, * multiplicação e / divisão: ");
+
+ var num1 = prompt ("Escreva o primeiro número: ");
+ var num2 = prompt("Escreva o segundo número: ");
+ var total = 0;
+
+ num1 = parseFloat (num1);
+ num2 = parseFloat(num2);
+
+ if (operacao == 'x')
+ {
+  total = num1 + num2;
+  alert ("Resultado: " + total);
+ } 
+  else if (operacao == '-') 
+ {
+     total = num1 - num2;
+     alert("Resultado: " + total);
+ }
+ else if (operacao == '*') 
+  {
+    total = num1 * num2;
+    alert("Resultado: " + total);
+  }
+  else if (operacao == '/') 
+  {
+     total = num1 / num2;
+     alert("Resultado: " + total);
+  }
+  else 
+  {
+    alert ("opcão invalida");
+  }
+
+  if (resultado !== null) 
+  {
+    alert(`O resultado de ${num1} ${operacao} ${num2} é ${resultado}.`);
+  }
+  </script>
+</body>
+</html>

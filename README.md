@@ -30,7 +30,7 @@ Durante o curso, foram abordados temas como:
 
 ## 📁 Organização do Repositório
 ```
-📦 desenvolvimento-interfaces-web/
+📦 DIW/
 ├── 📂 Semanas_DIW_/
 │   ├── Semana_10/
 │   ├── Semana_11/
